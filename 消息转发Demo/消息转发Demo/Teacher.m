@@ -21,6 +21,7 @@ void eat(id self, SEL _cmd, NSString * food) {
 + (BOOL)resolveInstanceMethod:(SEL)sel {
 
     if (sel == @selector(eat:)) {
+        //添加方法
         return  class_addMethod(self.class, @selector(eat:), (IMP)eat, "v@:@");
     }
 

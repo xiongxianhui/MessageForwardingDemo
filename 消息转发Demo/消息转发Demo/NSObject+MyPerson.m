@@ -9,7 +9,7 @@
 #import "NSObject+MyPerson.h"
 
 @implementation NSObject (MyPerson)
-
+//根类实现
 //- (void)eat:(NSString *)food {
 //    NSLog(@"NSObject eat %@",food);
 //}

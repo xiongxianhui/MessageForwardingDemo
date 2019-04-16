@@ -10,6 +10,7 @@
 
 @implementation Person
 
+//父类实现
 //- (void)eat:(NSString *)food {
 //    NSLog(@"Person eat %@",food);
 //}
